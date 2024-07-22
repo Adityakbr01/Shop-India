@@ -1,0 +1,23 @@
+.containere {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+}
+
+.background-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center text accurately */
+  color: white; /* Text color */
+  font-size: 2rem; /* Adjust text size as needed */
+  text-align: center; /* Center text */
+  background: rgba(0, 0, 0, 0.5); /* Optional: background for readability */
+  padding: 10px; /* Optional: padding around text */
+  border-radius: 8px; /* Optional: rounded corners */
+}
